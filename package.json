@@ -1,5 +1,5 @@
 {
-  "name": "maze-generator",
+  "name": "@narainmittal/maze-generator",
   "version": "1.0.0",
   "description": "random maze genrator\u001b[D\u001b[D\u001b[D\u001b[D\u001b[De\u001b[C\u001b[C\u001b[D\u001b[C\u001b[rator in a grid format",
   "main": "index.js",
