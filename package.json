@@ -1,0 +1,22 @@
+{
+  "name": "maze-generator",
+  "version": "1.0.0",
+  "description": "random maze genrator\u001b[D\u001b[D\u001b[D\u001b[D\u001b[De\u001b[C\u001b[C\u001b[D\u001b[C\u001b[rator in a grid format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narainmittal/maze-generator.git"
+  },
+  "author": "Narain Mittal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/narainmittal/maze-generator/issues"
+  },
+  "homepage": "https://github.com/narainmittal/maze-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
