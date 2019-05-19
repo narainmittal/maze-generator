@@ -1,9 +1,16 @@
-const generator = require('./src/generator');
+const _ = require('lodash');
+const Block = require('./src/block');
+const { backtracking } = require('./src/backtracking');
 
-function generateMaze(rows, cols){
-    return generator.generate(rows, cols);
+const algorithms = {
+    'recursive-backtracking': backtracking
 }
 
+function generate(rows, cols, algorithm) {
+    algorithm = algorithm || 'recursive-backtracking';
+    const maze = algorithms[algorithm](rows, cols);
+    return maze;
+}
 module.exports = {
-    maze : generateMaze
+    generateMaze: generate
 }
