@@ -1,5 +1,4 @@
 const _ = require('lodash');
-const Block = require('./src/block');
 const { backtracking } = require('./src/backtracking');
 
 const algorithms = {

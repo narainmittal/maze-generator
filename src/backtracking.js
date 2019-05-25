@@ -5,7 +5,7 @@ const {
     DIRECTION_NEXT_Y,
     DIRECTION_OPP
 } = require('./constants');
-const _ = require('lodash')
+const _ = require('lodash');
 
 function Backtracking(rows, cols) {
 

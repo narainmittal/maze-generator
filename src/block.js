@@ -24,7 +24,7 @@ Block.prototype.getBlock = function () {
         'y': this.y,
         'dir': this.dir,
         'downWall': (this.dir & DIRECTIONS.DOWN) !== 0,
-        'leftWall': (this.dir & DIRECTIONS.LEFT) !== 0
+        'rightWall': (this.dir & DIRECTIONS.RIGHT) !== 0
     };
 }
 
