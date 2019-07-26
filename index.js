@@ -5,11 +5,11 @@ const algorithms = {
     'recursive-backtracking': backtracking
 }
 
-function generate(rows, cols, algorithm) {
+async function generate(rows, cols, algorithm) {
     algorithm = algorithm || 'recursive-backtracking';
-    const maze = algorithms[algorithm](rows, cols);
+    const maze = await algorithms[algorithm](rows, cols);
     return maze;
 }
 module.exports = {
-    generateMaze: generate
+    generate
 }
