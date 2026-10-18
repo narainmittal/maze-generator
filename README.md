@@ -3,6 +3,18 @@ Utility to generate randomized maze in a grid format. The grid format is supplie
 
 # Usage
 
+## Development
+
+Running the tests requires Node.js 20.19+ on the Node 20 release line, or Node.js 22.12+.
+Use a currently supported Node.js release.
+
+```sh
+npm ci
+npm test
+```
+
+## Installation
+
 Install the package locally as a dependency 
 
 ```
